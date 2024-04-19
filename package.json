@@ -1,0 +1,22 @@
+{
+  "name": "nebula-sputnik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "qlik:run": "node -r dotenv/config ./scripts/run-qlik.js ",
+    "qlik:unlock": "node -r dotenv/config ./scripts/get-last-unlock.js",
+    "serve": "nebula serve --build false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nebula.js/cli": "^4.14.0",
+    "@nebula.js/cli-serve": "^4.14.0",
+    "@nebula.js/cli-build": "4.5.0",
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5"
+  }
+}
