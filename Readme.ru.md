@@ -8,7 +8,7 @@
 
 ### Скрипты:
 
-- [ ] Копирование последнего unlock файла c github.com/qlik-download
+- [x] Копирование последнего unlock файла c github.com/qlik-download
 - [ ] Запуск QLik Sense Desktop
 
 ## TODO
