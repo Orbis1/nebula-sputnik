@@ -14,3 +14,7 @@
 ## TODO
 
 - [ ] Реализовать обёртку https.get в Promise. Выполнить скачивание файла с использованием async/await вместо callback
+
+## Сборка
+
+- адрес сборки указывается в package.json main (например, "dist/index.js",)
